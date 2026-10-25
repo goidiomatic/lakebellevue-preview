@@ -1,0 +1,3 @@
+# Cloudflare Pages _redirects. One rule per line: [source] [destination] [code]
+# Domain-level redirects (e.g. www -> apex) are not supported here; see ../DEPLOY.md.
+# /old-page /#contact 301
