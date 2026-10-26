@@ -239,11 +239,10 @@
     <div class="counselors">
       <article class="counselor" id="adam-sullivan">
         <div class="counselor-photo reveal">
-          <!-- Replace with: <img src="assets/img/adam-sullivan.jpg" alt="Portrait of Adam Sullivan, LMHC" width="800" height="1000" loading="lazy"> -->
-          <div class="photo-placeholder" role="img" aria-label="Photo placeholder for Adam Sullivan">
-            <img src="assets/img/layered-hills.jpg" alt="" width="1000" height="1500" loading="lazy">
-            <span>[Headshot to be provided]</span>
-          </div>
+          <picture>
+            <source type="image/webp" srcset="assets/img/adam-sullivan-800.webp 800w, assets/img/adam-sullivan-1600.webp 1600w" sizes="(max-width: 900px) 90vw, 460px">
+            <img class="counselor-portrait" src="assets/img/adam-sullivan-800.jpg" srcset="assets/img/adam-sullivan-800.jpg 800w, assets/img/adam-sullivan-1600.jpg 1600w" sizes="(max-width: 900px) 90vw, 460px" alt="Adam Sullivan, LMHC" width="800" height="1000" loading="lazy" decoding="async">
+          </picture>
         </div>
         <div class="counselor-body">
           <p class="eyebrow reveal">About</p>
